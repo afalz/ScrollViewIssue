@@ -13,7 +13,7 @@ namespace ScrollViewIssue
 				VerticalOptions = LayoutOptions.FillAndExpand,
 				Padding = new Thickness (20),
 				Content = new BoxView () {
-					BackgroundColor = Color.Red,
+					Color = Color.Red,
 					HeightRequest = 400,
 					HorizontalOptions = LayoutOptions.FillAndExpand
 				}
